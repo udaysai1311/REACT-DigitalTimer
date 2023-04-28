@@ -1,0 +1,94 @@
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+.head {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+}
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0px;
+}
+.timer-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  background-color: #ffffff;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  border-radius: 80px;
+  padding: 10px;
+}
+.timer-head {
+  margin-bottom: 0;
+  color: #00d9f5;
+}
+.timer-para {
+  margin-top: 5px;
+}
+.s-p-button {
+  background-color: transparent;
+  border-width: 0;
+  font-size: 16px;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button-align-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.s-p-r-image {
+  width: 25px;
+  margin-left: 40px;
+}
+.set-timer-para {
+  margin-left: 45px;
+}
+.set-timer-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-left: 40px;
+}
+.minus-plus-button {
+  background-color: transparent;
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+  border-width: 0;
+}
+.number-para {
+  background-image: linear-gradient(to right, #00f55e, #00d9f5);
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bold;
+  box-sizing: border-box;
+  font-size: 20px;
+}
